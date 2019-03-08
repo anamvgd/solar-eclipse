@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="219.0" prefWidth="559.0" style="-fx-background-color: #f4f068;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.EclipseController">
+   <children>
+      <Circle fx:id="sunCircle" fill="#fff11f" layoutX="280.0" layoutY="110.0" radius="48.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="moonCircle" fill="#dde4eb" layoutX="51.0" layoutY="110.0" radius="51.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button layoutX="14.0" layoutY="180.0" mnemonicParsing="false" onAction="#moveButtonPressed" text="Move" />
+      <Circle fx:id="crat1" fill="#8a7544" layoutX="67.0" layoutY="96.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="crat2" fill="#e9f3fc" layoutX="83.0" layoutY="110.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="crat3" fill="#bfbea8" layoutX="67.0" layoutY="128.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
+   </children>
+</Pane>
